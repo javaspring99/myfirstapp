@@ -9,6 +9,17 @@ public class Employee {
 	public Employee() {
 		super();
 	}
+	
+	
+
+	public Employee(Integer empId, String empName, double empSal) {
+		super();
+		this.empId = empId;
+		this.empName = empName;
+		this.empSal = empSal;
+	}
+
+
 
 	public Integer getEmpId() {
 		return empId;
